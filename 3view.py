@@ -1,6 +1,7 @@
 # View when the data suggests that the lizards are present, according to the MOG algorithm
 
 # If 'q' is pressed, quit this video
+# Just a test comment
 
 from pathlib import Path
 
