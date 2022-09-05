@@ -1,3 +1,8 @@
+# Measures the movement for each video
+# First, run 'masker.py' to generate masks
+
+# If 'Esc' is pressed, quit this video
+
 import numpy as np
 import cv2
 
@@ -71,6 +76,8 @@ for file_name in path.rglob('*.mov'):
             f.write(data)
 
         #cv2.imshow('Frame', fgmask)
+
+        # If 'Esc' is pressed, quit this video
         k = cv2.waitKey(30) & 0xff
         if k == 27:
             break

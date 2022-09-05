@@ -1,3 +1,5 @@
+# Can annotate a file if you want to do it by hand. Creates a '.truth' file.
+
 from pathlib import Path
 
 import numpy as np

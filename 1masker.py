@@ -1,3 +1,13 @@
+# Creates masks for the videos
+# For each video in the folder 'directory_name':
+
+# if the 'c' key is pressed, continue, the mask is correct
+# If 'm' is pressed, then we need to mask this frame
+# If 'q' is pressed, quit this video
+# If 'n' is pressed, advance 1 frame
+# If 's' is pressed, save the mask
+# If 'd' is pressed, delete the mask
+
 from pathlib import Path
 
 import numpy as np

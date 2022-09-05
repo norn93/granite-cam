@@ -1,3 +1,5 @@
+# Old code that uses a naive pixel difference approach to detect movement
+
 from pathlib import Path
 
 import numpy as np
