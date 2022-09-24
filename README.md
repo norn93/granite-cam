@@ -24,5 +24,4 @@
 6. Validate on the validation set
 
 ## TODO
-* Insert an image for each step of the plan
-* Link this to Ashwin
+* Confirm understanding with Ashwin
