@@ -15,12 +15,12 @@
 3. Mask the BGS output with these bounding boxes, forming the required output of the training set with the RGB video as the input
 ![Output](./media/output.png)
 4. Increase the size of the training set by augmenting using salt and pepper, cropping and resizing, flipping through the y axis, etc.
-![Salt and Pepper](./media/salt.jpg)
-![Cropping and resizing](./media/crop.jpg)
-![Flipping](./media/flip.jpg)
+![Salt and Pepper](./media/salt.png)
+![Cropping and resizing](./media/crop.png)
+![Flipping](./media/flip.png)
 5. Train a CNN on the training set
 ![Input](./media/input.jpg)
-![Output](./media/output.jpg)
+![Output](./media/output.png)
 6. Validate on the validation set
 
 ## TODO
