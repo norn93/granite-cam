@@ -8,7 +8,7 @@
 ## Plan
 
 1. Tune the BGS model to produce useful looking output from the labelled videos in the training set
-![Input](./media/input.jpg)
+![Input](./media/input.png)
 ![BGS](./media/bgs.png)
 2. Draw bounding boxes around each frame for each lizard
 ![Bounding box](./media/bound.jpg)
@@ -19,7 +19,7 @@
 ![Cropping and resizing](./media/crop.jpg)
 ![Flipping](./media/flip.jpg)
 5. Train a CNN on the training set
-![Input](./media/input.jpg)
+![Input](./media/input.png)
 ![Output](./media/output.jpg)
 6. Validate on the validation set
 
