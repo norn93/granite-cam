@@ -8,7 +8,7 @@
 ## Plan
 
 1. Tune the BGS model to produce useful looking output from the labelled videos in the training set
-![Input](./media/input.jpg)
+![Input](./media/input.jpg "test")
 ![BGS](./media/bgs.png)
 2. Draw bounding boxes around each frame for each lizard
 ![Bounding box](./media/bound.png)
