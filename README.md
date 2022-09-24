@@ -8,19 +8,19 @@
 ## Plan
 
 1. Tune the BGS model to produce useful looking output from the labelled videos in the training set
-![Input](./media/input.jpg "test")
-![BGS](./media/bgs.png)
+![Input](./media/input.jpg "Input")
+![BGS](./media/bgs.png "BGS (using MOG)"))
 2. Draw bounding boxes around each frame for each lizard
-![Bounding box](./media/bound.png)
+![Bounding box](./media/bound.png "Bounding boxes")
 3. Mask the BGS output with these bounding boxes, forming the required output of the training set with the RGB video as the input
-![Output](./media/output.png)
+![Output](./media/output.png "Output")
 4. Increase the size of the training set by augmenting using salt and pepper, cropping and resizing, flipping through the y axis, etc.
-![Salt and Pepper](./media/salt.jpg)
-![Cropping and resizing](./media/crop.png)
-![Flipping](./media/flip.png)
+![Salt and Pepper](./media/salt.jpg "Salt (and pepper, but the pepper is invisible)")
+![Cropping and resizing](./media/crop.png "Cropped image")
+![Flipping](./media/flip.png "Flipped through the y axis")
 5. Train a CNN on the training set
-![Input](./media/input.jpg)
-![Output](./media/output.png)
+![Input](./media/input.jpg "Input")
+![Output](./media/output.png "Output")
 6. Validate on the validation set
 
 ## TODO
