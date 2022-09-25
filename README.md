@@ -21,5 +21,11 @@
 ![Output](./media/output.png "Output")
 6. Validate on the validation set
 
+## Links
+1. [Video 1 (big lizards) showing original video side by side with MOG2 BGS with parameters: history=0, varThreshold=0, detectShadows=False](https://diode.zone/w/vyyGZnCU3Chrr3H5eDtL8u)
+2. [Video 2 (little lizards) showing original video side by side with MOG2 BGS with parameters: history=0, varThreshold=0, detectShadows=False](https://diode.zone/w/eYXnEi6DoiiqfCqZ9cr75V)
+
 ## TODO
 * Confirm understanding with Ashwin
+  * Are my inputs and outputs correct?
+  * Do the videos show decent BGS?
